@@ -1,2 +1,2 @@
 ﻿# ToBag
-### link para o site [ToBag](https://genshinproject.vercel.app/index.html)
+### link para o site [ToBag](https://to-bag.vercel.app/)
