@@ -1,0 +1,186 @@
+/* GLOBAL ======================= */
+* {
+    margin: 0;
+    padding: 0;
+    border-spacing: border-box;
+    font-family: Roboto, sans-serif;
+  }
+  
+  /* HEADER ====================== */
+  header {
+    background: #6a82cc;
+    display: flex
+  }
+  
+  h1 {
+    margin: 0.5rem 63rem 0 9rem;
+    color: whitesmoke;
+    font-size: 36px;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  header h2 {
+    margin: 1rem 0 5rem 3rem;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  
+  .signup {
+    background: #5a72bb;
+    margin: 1rem 0 5rem 3rem;
+    padding: 0.5rem 3rem;
+    border: 1px solid white;
+    color: whitesmoke;
+    border-radius: 1.5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .signup:hover {
+    opacity: 1.0;
+  }
+  
+/* BODY =============================== */
+
+  main {
+    background: #6a82cc;
+    display: flex;
+  }
+  
+  #promotion {
+    background: #6a82cc;
+    color: whitesmoke;
+    margin: 2rem 0 0 6.5rem;
+    font-size: 30px;   
+  }
+
+  #promotion h2 {
+    line-height: 1.3;  
+  }
+
+  #promotion p {
+      font-weight: bold;
+      font-size: 23px;
+  }
+  
+  #buttons {
+    display: flex;
+    color: whitesmoke;
+    background: #6a82cc;
+  /*   border: 1px solid black; */
+  }
+  
+  #buttonpay {
+    margin: 2rem 0 4rem 6rem;
+    padding: 0.5rem 3rem;
+    border: 1px solid white;
+    background: #5a72bb;
+    border-radius: 1.5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+#buttonpay:hover {
+  opacity: 1.0;
+}
+
+  #buttonexplore {
+    margin: 2rem 0 4rem 3rem;
+    padding: 0.5rem 3rem;
+    border: 1px solid white;
+    background: #5a72bb;
+    border-radius: 1.5rem;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+#buttonexplore:hover {
+  opacity: 1.0;
+}
+  
+  p {
+    margin: 1rem 0 0 0;
+  }
+  
+  #email {
+    background: white;
+    padding: 3rem 2rem;
+    margin: 6rem 9rem 0 52rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+  }
+
+  
+
+#email h2 {
+  font-weight: bolder;
+}
+
+#email h3 {
+    color: white;
+    margin: 2rem 0 0 2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    background: #5a72bb;
+    border-radius: 1.5rem;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#email h3:hover {
+    opacity: 1.0;
+  }
+
+.input {
+  padding: 0.5rem 7rem 0.5rem 0;
+  margin: 2rem 0 0 0;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.buttonemail {
+    display: flex;
+}
+
+/* CARDS ============================= */
+
+#cards {
+  text-align: center;
+  display: flex;
+  background: whitesmoke;
+  padding: 1rem 31rem;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  background: white;
+  margin-left: 3rem;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.card:hover {
+  opacity: 1.0;
+}
+
+.card h2 {
+  padding: 1rem;
+}
+
+.card p {
+  padding: 0 0.5rem;
+}
+
+
+/* FOOTER ============================ */
+
+footer {
+  text-align: center;
+  background: #6a82cc;
+  color: white;
+  font-weight: lighter;
+  padding: 1.2rem;
+}
