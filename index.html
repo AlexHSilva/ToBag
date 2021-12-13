@@ -12,86 +12,107 @@
 </head>
 
 <body>
-    
+
   <header>
 
-      <div>
-          <h1><svg width="35" height="35">
-              <image href="https://image.flaticon.com/icons/png/512/82/82632.png" height="35" width="35" />
-            </svg>ToBag
-          </h1>
+    <div>
+      <h1><svg width="35" height="35">
+          <image href="https://image.flaticon.com/icons/png/512/82/82632.png" height="35" width="35" />
+        </svg>ToBag
+      </h1>
+    </div>
+
+      <div id="menu-bar" class="menu-mobile">
+
+        <div id="menu" onclick="onClickMenu()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+
+        <ul class="nav" id="nav">
+          <li>Home</li>
+          <li>Sobre</li>
+          <li>Produtos</li>
+          <li>Signup</li>
+        </ul>
+
       </div>
 
-      <div id="menu">
-          <span>Home</span>
-          <span>Sobre</span>
-          <span>Produtos</span>
-          <button>Signup</button>
+      <div class="menu-bg" id="menu-bg"></div>
+
+      <div id="menu-desktop" class="menu-desktop">
+        <span>Home</span>
+        <span>Sobre</span>
+        <span>Produtos</span>
+        <button>Signup</button>
       </div>
 
   </header>
 
   <main>
 
-      <section id="promotion">
+    <section id="promotion">
 
-          <h2>Produtos que<br>você vai<br> adorar</h2>
-          <p>Mais de 2000 produtos com<br> mais de 75% de descontos!</p>
-          
-          <button>Compre</button>
-          <button>Explore</button>
+      <h2>Produtos que<br>você vai<br> adorar</h2>
+      <p>Mais de 2000 produtos com<br> mais de 75% de descontos!</p>
 
-        </section>
+      <button>Compre</button>
+      <button>Explore</button>
 
-        <section id="email">
+    </section>
 
-          <h2>Cadastre seu email para receber todas<br>as promoções</h2>
-    
-          <div>
-            <input type="text" placeholder="Exemplo@hotmail.com...">
-            <button>Cadastrar</button>
-          </div>
-    
-        </section>
+    <section id="email">
+
+      <h2>Cadastre seu email para receber todas<br>as promoções</h2>
+
+      <div>
+        <input type="text" placeholder="Exemplo@hotmail.com...">
+        <button>Cadastrar</button>
+      </div>
+
+    </section>
 
   </main>
 
   <section id="cards">
 
-      <div class="card">
-        <h2>Notebook</h2>
-        <svg width="200" height="170">
-          <image href="https://live.staticflickr.com/65535/51315762969_9463854bb5_c.jpg" height="200" width="200" />
-        </svg>
-        <p>Processador i5, 8GB RAM, SSD, GTX1650</p>
-        <h2>R$5000</h2>
-      </div>
-  
-      <div class="card">
-        <h2>Notebook</h2>
-        <svg width="200" height="170">
-          <image href="https://live.staticflickr.com/65535/51315762969_9463854bb5_c.jpg" height="200" width="200" />
-        </svg>
-        <p>Processador i5, 8GB RAM, SSD, GTX1650</p>
-        <h2>R$5000</h2>
-      </div>
-  
-      <div class="card">
-        <h2>Notebook</h2>
-        <svg width="200" height="170">
-          <image href="https://live.staticflickr.com/65535/51315762969_9463854bb5_c.jpg" height="200" width="200" />
-        </svg>
-        <p>Processador i5, 8GB RAM, SSD, GTX1650</p>
-        <h2>R$5000</h2>
-      </div>
-  
-    </section>
+    <div class="card">
+      <h2>Notebook</h2>
+      <svg width="200" height="170">
+        <image href="https://live.staticflickr.com/65535/51315762969_9463854bb5_c.jpg" height="200" width="200" />
+      </svg>
+      <p>Processador i5, 8GB RAM, SSD, GTX1650</p>
+      <h2>R$5000</h2>
+    </div>
+
+    <div class="card">
+      <h2>Notebook</h2>
+      <svg width="200" height="170">
+        <image href="https://live.staticflickr.com/65535/51315762969_9463854bb5_c.jpg" height="200" width="200" />
+      </svg>
+      <p>Processador i5, 8GB RAM, SSD, GTX1650</p>
+      <h2>R$5000</h2>
+    </div>
+
+    <div class="card">
+      <h2>Notebook</h2>
+      <svg width="200" height="170">
+        <image href="https://live.staticflickr.com/65535/51315762969_9463854bb5_c.jpg" height="200" width="200" />
+      </svg>
+      <p>Processador i5, 8GB RAM, SSD, GTX1650</p>
+      <h2>R$5000</h2>
+    </div>
+
+  </section>
 
   <footer>
 
-      <span>ToBag ©2021 Created by Alex Silva</span>
-  
-    </footer>
+    <span>ToBag ©2021 Created by Alex Silva</span>
+
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 
